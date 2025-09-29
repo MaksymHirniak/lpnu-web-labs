@@ -1,0 +1,36 @@
+.materials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 250px;
+}
+.materials_content {
+  max-width: 480px;
+}
+.materials_image {
+  text-align: right;
+  max-width: 400px;
+  max-height: 450px;
+  padding-right: 400px;
+}
+.materials_title {
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.materials_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  line-height: 28px;
+}
+
+.materials_button {
+  background-color: white;
+  border-color: grey;
+  color: grey;
+  padding: 10px;
+  font-family: "Rubik";
+}

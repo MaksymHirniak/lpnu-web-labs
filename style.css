@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import "/header.css";
+@import "/hero.css";
+@import "/materials.css";
+@import "/innovative.css";
+@import "/bottom.css";
+@import "/footer.css";
