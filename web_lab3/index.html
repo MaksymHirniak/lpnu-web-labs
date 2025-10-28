@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="app-header">
+        <h1>Каталог товарів</h1>
+        <div class="controls">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Пошук за назвою..."
+          />
+          <button id="sort-asc">Ціна (дешевші)</button>
+          <button id="sort-desc">Ціна (дорожчі)</button>
+          <button id="add-item" class="add-new">Додати товар</button>
+        </div>
+      </header>
+
+      <main id="item-list" class="item-grid"></main>
+
+      <footer class="app-footer">
+        <h3>Загальна вартість: <span id="total-sum">0</span> грн</h3>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- Modal for create/edit -->
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop"></div>
+      <div
+        class="modal-window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-content">
+          <h3 id="modal-title">Форма товару</h3>
+          <form id="item-form">
+            <input type="hidden" id="item-id" />
+            <input
+              id="item-name"
+              type="text"
+              placeholder="Назва"
+              maxlength="100"
+              required
+            />
+            <input
+              id="item-desc"
+              type="text"
+              placeholder="Опис"
+              maxlength="500"
+              required
+            />
+            <input
+              id="item-price"
+              type="number"
+              placeholder="Ціна"
+              min="0"
+              step="1"
+              required
+            />
+            <div class="form-error" id="form-error" aria-live="polite"></div>
+            <div class="modal-actions">
+              <button type="submit">Зберегти</button>
+              <button type="button" id="modal-cancel">Скасувати</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
