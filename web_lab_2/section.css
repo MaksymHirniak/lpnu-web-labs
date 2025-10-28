@@ -1,0 +1,39 @@
+.section {
+  padding: 80px 0;
+}
+.section--dark {
+  background: #2c343b;
+  color: white;
+}
+.split-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.split-container > * {
+  flex: 1;
+}
+.section__title {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.feature-item {
+  transition: transform 0.3s ease; /* Анімка 2*/
+}
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+.feature-item h3 {
+  margin: 0 0 10px 0;
+}
+.feature-item p {
+  margin: 0;
+}
+.section--dark .section__content + .section__content {
+  padding-top: 60px;
+}

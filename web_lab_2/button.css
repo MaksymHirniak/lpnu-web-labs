@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+
+/* 👇 ОНОВЛЕНО: Інвертовані стилі для кнопки в хедері */
+.header__contact-btn {
+  border: 2px solid white;
+  background-color: white;
+  color: #2c343b;
+  font-family: "Montserrat", sans-serif; /* Додав, щоб шрифт був як у меню */
+}
+.header__contact-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/* 👇 ОНОВЛЕНО: Стилі для кнопки "Read more" */
+.button--dark {
+  border: 2px solid #2c343b;
+  color: #2c343b;
+  background-color: white; /* Додано */
+  font-family: "Montserrat", sans-serif; /* Додано */
+}
+.button--dark:hover {
+  background: #2c343b;
+  color: white;
+}
+/* ... .close-btn без змін ... */
