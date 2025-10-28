@@ -1,0 +1,30 @@
+.footer {
+  padding: 40px 0;
+  background: #2c343b; /* 👈 ОНОВЛЕНО: Темний фон */
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a {
+  color: white; /* 👈 ОНОВЛЕНО: Білий текст */
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 👇 ОНОВЛЕНО: Специфічний стиль для email, щоб він не був як інше посилання */
+.footer__email {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.footer__logo img {
+  height: 30px;
+  /* 👈 ОНОВЛЕНО: Треба підставити біле лого, цей фільтр зробить поточне білим */
+  filter: brightness(0) invert(1);
+}
+
+.footer__links {
+  display: flex;
+  gap: 20px;
+}

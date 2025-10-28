@@ -1,0 +1,28 @@
+.hero_title {
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+}
+.hero_text {
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: 0;
+  color: white;
+  line-height: 58px;
+  min-width: 700px;
+}
+.hero_content {
+  max-width: 800px;
+  margin-left: 200px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.hero_for_button > a > img {
+  width: 240px;
+  display: flex;
+}

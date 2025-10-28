@@ -1,0 +1,35 @@
+.innovative {
+  background-color: #26353b;
+  min-height: 450px;
+}
+h3 {
+  padding-top: 120px;
+  padding-left: 60px;
+  font-size: 35px;
+}
+.innovate_title {
+  margin-left: 360px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.innovative_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  color: white;
+  margin-right: 360px;
+  margin-left: 360px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.innovate_text {
+  width: 45%;
+}
+
+.innovate_title h3 {
+  padding: 40px 80px;
+}
